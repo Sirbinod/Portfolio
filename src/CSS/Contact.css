@@ -1,0 +1,53 @@
+.contact{
+
+    background-color: #f4f4f4;
+    padding: 90px 0 90px 0;
+}
+.contact .container{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.contact .container > h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.contact .container > h3{
+    color: #000;
+    position: relative;
+    text-align: center;
+    padding-bottom: 120px;
+}
+.contact .container .con_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.c_item{
+    width: 270px;
+    height: 270px;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+    transform: 0.3s;
+    animation: ease-in;
+    align-items: center;
+}
+.c_item:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.c_item .icon{
+    text-align: center;
+}
+
+.c_item .c_content > h2{
+    text-align: center;
+    margin: 10px 0;
+    padding: 0;
+}
